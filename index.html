@@ -15,7 +15,7 @@
 
 		function tryAndGetTramTimings() {
 			console.log('trying to get tram timings');
-			var loc = "https://v5.bvg.transport.rest/stops/900000193002/departures?direction=900000193505&tram=true&when=tomorrow%203pm&results=100";
+			var loc = "https://v5.bvg.transport.rest/stops/900000193002/departures?direction=900000193505&tram=true&results=100";
 			$.ajax({
 				url: loc,
 				success : function(data) {
